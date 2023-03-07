@@ -17,12 +17,14 @@ const mousehovering3=()=>{
   return (
     <section>
       <div className="">
-       
+          <div className="imgcarousel">
           <img
             src={images}
             alt="images"
             className="img-fluid banner w-100"
           ></img>
+          </div>
+          
         
         <div className="bgcolor-carousal-text text-light container-fluid">
           <div className="row ">
