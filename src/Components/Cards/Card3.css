@@ -1,0 +1,40 @@
+.card2-box1{
+    background-color: black;
+    color:white;
+  
+   
+}
+.card2-para{
+    /* text-align: center; */
+    margin-top: 2rem;
+}
+.card2-text{
+    margin:8rem;
+}
+.card3-box3{
+    position:absolute;
+    left:5rem;
+    top:2.5rem;
+   
+}
+.card3{
+    position: relative;
+background-color: rgb(4, 99, 99);
+
+}
+.card3-box1{
+    margin-top:0;
+    margin-bottom:0;
+    height:62vh;
+    
+}
+.card2images {
+        height: 26rem;
+        width: 55rem;
+}
+.card3-box1{
+    background-color: black;
+    color:white;
+  
+   
+}

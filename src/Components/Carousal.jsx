@@ -28,8 +28,8 @@ const mousehovering3=()=>{
         
         <div className="bgcolor-carousal-text text-light container-fluid">
           <div className="row ">
-            <div className="col-lg-3 col-md-3 col-sm-6" onMouseOver={mousehovering1}>
-              <h1>header</h1>
+            <div className="col-lg-3 col-md-3 col-sm-6 " onMouseOver={mousehovering1}>
+              <h3>header</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Tempora molestiae blanditiis minima doloribus obcaecati pariatur
@@ -38,7 +38,7 @@ const mousehovering3=()=>{
               </p>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-6" onMouseOver={mousehovering2}>
-              <h1>header</h1>
+              <h3>header</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Tempora molestiae blanditiis minima doloribus obcaecati pariatur
@@ -47,7 +47,7 @@ const mousehovering3=()=>{
               </p>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-6 " onMouseOver={mousehovering3}>
-              <h1>header</h1>
+              <h3>header</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Tempora molestiae blanditiis minima doloribus obcaecati pariatur

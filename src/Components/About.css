@@ -1,0 +1,15 @@
+.aboutsection{
+  padding:4rem 7rem;  
+}
+.about-para{
+    text-align:left;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.bttn{
+    height:3rem;
+    width:19rem;
+    background-color: black;
+    color:#ffff;
+
+}

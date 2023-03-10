@@ -1,0 +1,34 @@
+.card2-box1{
+    background-color: black;
+    color:white;
+  
+   
+}
+.card2-para{
+    margin-top: 2rem;
+}
+.card2-text{
+    margin:8rem;
+}
+.card2-box2{
+    position:absolute;
+    right:5rem;
+    top:2.5rem;
+    height: 25rem;
+   
+}
+.card2{
+    position: relative;
+background-color: rgb(60, 174, 240);
+
+}
+.card2-box1{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height:62vh;
+    
+}
+.card2images {
+        height:20rem;
+        width: 53rem;
+}
