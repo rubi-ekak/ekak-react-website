@@ -36,7 +36,9 @@
   outline: rgb(243, 241, 241);
 }
 .form {
-  padding: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
 }
 .text-area {
   border-radius: 4px;

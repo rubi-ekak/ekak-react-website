@@ -25,3 +25,23 @@
 .ftrbtn{
     background-color: transparent;
 }
+.footer-content{
+    background-color: black;
+    color: #ffff;
+}
+.home{
+    color: #ffff;
+}
+.logosmall{
+    height: auto;
+    width: 12rem;
+}
+.paracopyright{
+    font-size:15px;
+}
+.paracopyright1{
+    font-size: 15px;
+}
+.horizontal-line{
+    width:30rem;
+}
