@@ -14,7 +14,7 @@
 .card3-box3{
     position:absolute;
     left:5rem;
-    top:2.5rem;
+    top:2rem;
    
 }
 .card3{
@@ -28,10 +28,10 @@ background-color: rgb(4, 99, 99);
     height:62vh;
     
 }
-.card2images {
+/* .card2images {
         height: 22rem;
         width: 55rem;
-}
+} */
 .card3-box1{
     background-color: black;
     color:white;

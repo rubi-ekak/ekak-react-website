@@ -12,9 +12,12 @@ import Card3 from "./Components/Cards/Card3";
 import Team from "./Components/Team";
 import Map from "./Components/Map";
 
+import Footer from "./Components/Footer";
+
+
 function App() {
   return (
-    <div>
+    <div className="">
      <Navbar/>
       <Carousal/> 
       <About/>
@@ -23,6 +26,8 @@ function App() {
      <Card3/>
      <Team/>
      <Map/>
+     {/* <Form/> */}
+     <Footer/>
 
     </div>
   );

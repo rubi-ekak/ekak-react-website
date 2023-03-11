@@ -1,0 +1,27 @@
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+   
+}
+.footer-links ul{
+    list-style: none;
+}
+.footer-links ul a{
+    text-decoration: none;
+    color: black;
+
+}
+.textlink{
+    font-family:"Gilroy-regular",sans-serif;
+    font-size:25px;
+}
+.textbtn{
+    font-family:"Gilroy-regular",sans-serif;
+    font-size:25px;
+    font-weight: 700;
+    background-color: rgb(230, 227, 227);
+}
+.ftrbtn{
+    background-color: transparent;
+}

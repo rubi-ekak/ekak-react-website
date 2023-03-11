@@ -1,23 +1,66 @@
-
-.googlecontainer{
- margin-top: 4rem;
+.googlecontainer {
+  margin-top: 4rem;
 }
-.buttn1{
-   height: 3rem;
-   width:15rem;
-   background-color: rgb(71, 67, 67);
-   color: white;
+.buttn1 {
+  height: 3rem;
+  width: 15rem;
+  background-color: rgb(71, 67, 67);
+  color: white;
 }
-.buttn2{
-    height: 3rem;
-   width:15rem;
-   background-color: rgb(141, 137, 137);
-   color: white;
+.buttn2 {
+  height: 3rem;
+  width: 15rem;
+  background-color: rgb(141, 137, 137);
+  color: white;
 }
-.mapdata{
-   
-    padding:4rem;
-    
-    
-   
+.mapdata {
+  padding: 3.5rem;
+}
+.queries {
+  text-align: center;
+  font-family: "Gilroy-Bold", sans-serif;
+  padding-top: 1rem;
+  color: #ffff;
+}
+.form-container {
+  background-color: rgb(29, 28, 28);
+}
+.input-form {
+  height: 2rem;
+  width: 14rem;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgb(236, 231, 231);
+  cursor: pointer;
+}
+.input-form:focus {
+  outline: rgb(243, 241, 241);
+}
+.form {
+  padding: 3rem;
+}
+.text-area {
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgb(236, 231, 231);
+  cursor: help;
+}
+.text-area:focus {
+  outline: rgb(243, 241, 241);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: teal;
+}
+/* .button-submit{
+  border-color: rgb(189, 186, 186); */
+ 
+.btnsubmit{
+    margin-top:2rem;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.arrow{
+    padding-left: 2rem;
+    height:5rem;
 }

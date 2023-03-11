@@ -13,7 +13,7 @@
 .card2-box2{
     position:absolute;
     right:5rem;
-    top:2.5rem;
+    top:2.3rem;
     height: 25rem;
    
 }
@@ -29,6 +29,6 @@ background-color: rgb(60, 174, 240);
     
 }
 .card2images {
-        height:24rem;
+        height:20rem;
         width: 53rem;
 }
