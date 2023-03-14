@@ -1,7 +1,10 @@
 .card2-box1{
     background-color: black;
     color:white;
-  
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height:80vh;
+    
    
 }
 .card2-para{
@@ -14,7 +17,7 @@
     position:absolute;
     right:5rem;
     top:2.3rem;
-    height: 25rem;
+    height:80vh;
    
    
 }
@@ -23,13 +26,8 @@
 background-color: rgb(60, 174, 240);
 
 }
-.card2-box1{
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    height:62vh;
-    
-}
+
 .card2images {
-        height:20rem;
+       
         width: 53rem;
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Team.css";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+ import link from "react"
 
 const Team = () => {
   return (
@@ -18,29 +20,41 @@ const Team = () => {
 
         <div className="team-images">
           <div className="row">
-            <div className="col-md-3 col-lg-3 col-12">
-              <img src="young.avif" alt="team-images"></img>
+            <div className="col-md-3 col-lg-3 col-12 team">
+              <img src="young.avif" alt="team-images" className="team-member-image"></img>
+              <a href="https://in.linkedin.com/in/rubi-prajapati-470538238?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><span className="middle">
+              <LinkedInIcon />
+              </span></a>
               <div className="d-flex align-items-center justify-content-center flex-column mt-4">
                 <h5>Name</h5>
                 <h6>Position</h6>
               </div>
             </div>
-            <div className="col-md-3 col-lg-3 col-12 ">
-              <img src="young.avif" alt="team-images"></img>
+            <div className="col-md-3 col-lg-3 col-12 team">
+              <img src="young.avif" alt="team-images" className="team-member-image"></img>
+              <span className="middle">
+              <LinkedInIcon />
+              </span>
               <div className="d-flex align-items-center justify-content-center flex-column mt-4" >
                 <h5>Name</h5>
                 <h6>Position</h6>
               </div>
             </div>
-            <div className="col-md-3 col-lg-3 col-12">
-              <img src="young.avif" alt="team-images"></img>
+            <div className="col-md-3 col-lg-3 col-12 team">
+              <img src="young.avif" alt="team-images" className="team-member-image"></img>
+             <span className="middle">
+              <LinkedInIcon />
+              </span>
               <div className="d-flex align-items-center justify-content-center flex-column mt-4">
                 <h5>Name</h5>
                 <h6>Position</h6>
               </div>
             </div>
-            <div className="col-md-3 col-lg-3 col-12">
-              <img src="young.avif" alt="team-images"></img>
+            <div className="col-md-3 col-lg-3 col-12 team">
+              <img src="young.avif" alt="team-images" className="team-member-image"></img>
+              <span className="middle">
+              <LinkedInIcon />
+              </span>
               <div className="d-flex align-items-center justify-content-center flex-column mt-4">
                 <h5>Name</h5>
                 <h6>Position</h6>
