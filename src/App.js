@@ -21,7 +21,7 @@ function App() {
      <Navbar/>
       <Carousal/> 
       <About/>
-      {/* <Cards1/> */}
+      <Cards1/>
      <Cards2/>
      <Card3/>
      <Team/>

@@ -19,7 +19,7 @@ const Cards2 = () => {
           </div>
           <div className="col-md-6 col-lg-6 col-12  card2-box2">
             <img
-              src="about1jpg.jpg"
+              src="https://bauminform.ru/static/media/cube2.6045face.png"
               alt="images"
               className="img-fluid card2images"
             ></img>

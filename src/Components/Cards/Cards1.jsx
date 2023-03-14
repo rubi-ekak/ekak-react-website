@@ -1,29 +1,41 @@
 import React from "react";
 import "./Cards1.css";
+import EastIcon from '@mui/icons-material/East';
 
 const Cards1 = () => {
   return (
     <section>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="card1-images col-lg-5">
-            <img src="crystal.avif" alt="images" className="img-fluid"></img>
+      <div className="container-fluid main-container">
+        <div className="newshort-container">
+          <div className="short-img">
+            <div className="short-img-bg"></div>
           </div>
-          <div className="card1-text col-lg-12 bg-primary">
-         
-            <div className="card1--text">
-            
-              <h4>hello</h4>
-
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
-                modi hic accusamus nulla neque fugiat aliquid voluptatibus
-                veniam nihil, necessitatibus pariatur suscipit aspernatur
-                deserunt corrupti magni consequatur doloremque dolorum
-                recusandae quaerat placeat optio mollitia, eos blanditiis.
-                Quaerat qui fugiat excepturi labore voluptatibus. Distinctio
-                sequi, fuga totam minima inventore harum ipsum.
+          <div className="short-content">
+            <div className="short-information ">
+              <div
+                className="data-heading d-flex
+               align-items-center p-2"
+              >
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAABCAYAAADtqZEsAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAaSURBVHgB7cABEQAAAMFA+idYWno4byC6CQUCFQLMlT9OeAAAAABJRU5ErkJggg=="
+                  alt="line-images"
+                ></img>
+                <h2 className="short-head">Lorem ipsum, dolor sit </h2>
+              </div>
+              <p className="short-content-para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aperiam rerum ipsum molestias aut possimus doloribus tempore?
+                Architecto enim quo alias obcaecati asperiores ipsam rerum?
+                Illo, vero! Debitis quisquam voluptatum odio. Nisi impedit ullam
+                soluta qui culpa. Rerum odit dolore possimus velit magnam
+                distinctio asperiores quas, ipsa ipsam dolores commodi dolorum!
               </p>
+              <div className="information-text-btn d-flex justify-content-end">
+                <button className="show-information d-flex justify-content-between">
+                  <span> Show to More</span>
+                  <span className="arr-short"><EastIcon/></span>
+                </button>
+              </div>
             </div>
           </div>
         </div>

@@ -28,7 +28,7 @@
 .input-form {
   height: 2rem;
   width: 14rem;
-  border-radius: 4px;
+ 
   box-shadow: 1px 1px 1px rgb(236, 231, 231);
   cursor: pointer;
 }
@@ -41,7 +41,7 @@
   padding-bottom: 2rem;
 }
 .text-area {
-  border-radius: 4px;
+ 
   box-shadow: 1px 1px 1px rgb(236, 231, 231);
   cursor: help;
 }

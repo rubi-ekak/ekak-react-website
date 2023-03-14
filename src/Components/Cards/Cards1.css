@@ -1,16 +1,49 @@
-.card1-images img {
-  height: 35vh;
-  width: 30vw;
-  clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
-  background-color: teal;
+.main-container .short-img{
+  background: url(https://bauminform.ru/static/media/block.7dbfe4d2.png);
+  min-height: 450px;
+  background-position: 50%;
+  width: 40%;
+  background-size: cover;
+ background-repeat: no-repeat;  
+ clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+
+ -webkit-clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+
 }
-.card1--text {
-  text-align: center;
-  /* display: flex;
-  justify-content: center; */
+.main-container .newshort-container{
+  display: flex;
+  align-items: center;
+  background: #193131;
+}
+.main-container .newshort-container .short-img .short-img-bg{
+  height:100% ;
+  min-height: 450px;
+  background: rgba(23,60,62,.76);
+  clip-path: polygon(95% 0,100% 0,75% 100%, 70% 100%);
+  -webkit-clip-path:polygon(95% 0,100% 0,75% 100%, 70% 100%);
+}
+.short-content .short-information {
+  color: #ffff;
+  width:85%;
+}
+.short-content{
+  width: 60%;
+  padding: 2rem;
  
 }
-.card1-text{
-    clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
-
+.show-information{
+  background: transparent;
+  color: #ffff;
+  
+}
+.arr-short{
+  margin-left: 1rem;
+}
+.short-head{
+  margin-left: 1rem;
+}
+.short-content-para{
+  font-family: 'Gilroy-Regular',sans-serif;
+  font-size: 1.4rem;
+  
 }
