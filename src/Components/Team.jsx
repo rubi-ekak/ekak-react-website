@@ -29,7 +29,7 @@ const Team = () => {
                   ></img>
                 </div>
 
-                <div className="d-flex align-items-center justify-content-center flex-column mt-4 flip-card-back">
+                <div className="d-flex align-items-center justify-content-center flex-column  flip-card-back">
                   <a
                     href="https://in.linkedin.com/in/rubi-prajapati-470538238?original_referer=https%3A%2F%2Fwww.google.com%2F"
                     target="_blank"
@@ -58,7 +58,7 @@ const Team = () => {
                   ></img>
                 </div>
 
-                <div className="d-flex align-items-center justify-content-center flex-column mt-4 flip-card-back">
+                <div className="d-flex align-items-center justify-content-center flex-column flip-card-back">
                   <a
                     href="https://in.linkedin.com/in/rubi-prajapati-470538238?original_referer=https%3A%2F%2Fwww.google.com%2F"
                     target="_blank"
@@ -71,7 +71,8 @@ const Team = () => {
                   <h6>(Frontend Developer)</h6>
                 </div>
               </div>
-            </div><div className="col-md-3 col-lg-3 col-12 team flip-card">
+            </div>
+            <div className="col-md-3 col-lg-3 col-12 team flip-card">
               <div className="flip-inner">
                 <div className="flip-card-front">
                   <img
@@ -81,7 +82,7 @@ const Team = () => {
                   ></img>
                 </div>
 
-                <div className="d-flex align-items-center justify-content-center flex-column mt-4 flip-card-back">
+                <div className="d-flex align-items-center justify-content-center flex-column flip-card-back">
                   <a
                     href="https://in.linkedin.com/in/rubi-prajapati-470538238?original_referer=https%3A%2F%2Fwww.google.com%2F"
                     target="_blank"
