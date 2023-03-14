@@ -8,14 +8,14 @@ const Map = () => {
         <div className="row">
           <div className="map-data col-md-6 col-lg-6 col-12 ">
             <div className="mapdata">
-              <h1 className="mb-5">Ekak Innovations</h1>
-              <div className="d-flex mb-5">
+              <h1 className="mb-4">Ekak Innovations</h1>
+              <div className="d-flex mb-4">
                 <button className="buttn1">Call</button>
                 <button className="buttn2">Message</button>
               </div>
 
               <h3>Ekak Address</h3>
-              <h5>
+              <h5 className="address-text">
                 113/216-A Swaroop Nagar, Kanpur- 208002,
                 <br></br> Uttar Pradesh, India
               </h5>

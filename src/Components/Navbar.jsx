@@ -6,18 +6,16 @@ const Navbar = () => {
     <section>
       <nav>
         <div className="row">
-          <div className="col-lg-2 border  h-auto d-flex align-items-center justify-content-center logo">Ekak</div>
+          <div className="col-lg-2 border  h-auto d-flex align-items-center justify-content-center logo">
+            <img src="https://ekak.in/assets/images/Ekak-12.png"></img>
+          </div>
           <div className="col-lg-10 border  h-auto">
-            <div className="d-flex justify-content-end">other content</div>
+           
 
             <div>
-              <div className="row">
-                <div className="col-lg-6  col-sm-12 border  h-auto d-flex align-items-center  search-container border-bottom-0 border-left-0">
-                <input className=" search-input h-auto" placeholder="Search"></input>
-                <SearchIcon className="search-icon"/>
+              <div className="row d-flex flex-end">
                 
-                </div>
-                <div className="col-lg-6 border  h-auto border-bottom-0">
+                <div className="col-lg-12 border  h-auto border-bottom-0">
                   <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                       
@@ -63,6 +61,24 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+
+
+  {/* <nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Pricing</a>
+        
+      </div>
+    </div>
+  </div>
+</nav> */}
     </section>
   );
 };

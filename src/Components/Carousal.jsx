@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Carousal.css";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import EastIcon from '@mui/icons-material/East';
 
 const Carousal = () => {
    const [images,setImages]=useState("https://ekak.in/assets/images/banner1.jpg");
@@ -56,8 +57,8 @@ const mousehovering3=()=>{
               </p>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center">
-                <button className="carousal-button btn">
-                    button →
+                <button className="carousal-button ">
+                    button<span className="carousal-btn"><EastIcon/></span> 
                 </button>
             </div>
           </div>

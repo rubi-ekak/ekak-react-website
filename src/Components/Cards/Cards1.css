@@ -42,8 +42,8 @@
 .short-head{
   margin-left: 1rem;
 }
-.short-content-para{
+.short-information .short-content-para{
   font-family: 'Gilroy-Regular',sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   
 }
