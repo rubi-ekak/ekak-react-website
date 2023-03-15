@@ -21,7 +21,7 @@ const TeamUnion = () => {
                 />
               </div>
               <div class="flip-card-back">
-                <h1>John Doe</h1>
+                <h5>Rubi Prajapati</h5>
                 <p>frontend developer</p>
                 <span className="middle">
                       <LinkedInIcon />
@@ -42,7 +42,7 @@ const TeamUnion = () => {
                 />
               </div>
               <div class="flip-card-back">
-                <h1>John Doe</h1>
+                <h1></h1>
                 <p>frontend developer</p>
                 <span className="middle">
                       <LinkedInIcon />
@@ -63,7 +63,7 @@ const TeamUnion = () => {
                 />
               </div>
               <div class="flip-card-back">
-                <h1>John Doe</h1>
+                <h1></h1>
                 <p>frontend developer</p>
                 <span className="middle">
                       <LinkedInIcon />
@@ -85,7 +85,7 @@ const TeamUnion = () => {
                 
               </div>
               <div class="flip-card-back">
-                <h1>John Doe</h1>
+                <h1></h1>
                 <p>frontend developer</p>
                 <span className="middle">
                       <LinkedInIcon />
