@@ -13,6 +13,7 @@ import Team from "./Components/Team";
 import Map from "./Components/Map";
 
 import Footer from "./Components/Footer";
+import TeamUnion from "./Components/TeamUnion";
 
 
 function App() {
@@ -24,8 +25,10 @@ function App() {
       <Cards1/>
      <Cards2/>
      <Card3/>
-     <Team/>
+      {/* <TeamUnion/> */}
+      <Team/>
      <Map/>
+    
      {/* <Form/> */}
      <Footer/>
 

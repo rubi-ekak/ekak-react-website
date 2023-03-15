@@ -2,6 +2,7 @@ import React from "react";
 import "./Team.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { useState } from "react";
+import TeamUnion from "./TeamUnion";
 
 const Team = () => {
   return (
@@ -17,7 +18,9 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="team-images">
+        <TeamUnion/>
+
+        {/* <div className="team-images">
           <div className="row">
             <div className="col-md-2 col-lg-3 col-12 team flip-card">
               <div className="flip-inner">
@@ -29,7 +32,7 @@ const Team = () => {
                   ></img>
                 </div>
 
-                <div className="d-flex align-items-center justify-content-center flex-column  flip-card-back">
+                <div className=" flip-card-back">
                   <a
                     href="https://in.linkedin.com/in/rubi-prajapati-470538238?original_referer=https%3A%2F%2Fwww.google.com%2F"
                     target="_blank"
@@ -125,7 +128,7 @@ const Team = () => {
             
           </div>
         </div>
-        <h1 className="text-center"></h1>
+        <h1 className="text-center"></h1> */}
       </div>
     </section>
   );
