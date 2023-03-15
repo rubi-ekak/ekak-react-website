@@ -18,7 +18,7 @@ import TeamUnion from "./Components/TeamUnion";
 
 function App() {
   return (
-    <div className="">
+    <div className="container-fluid">
      <Navbar/>
       <Carousal/> 
       <About/>

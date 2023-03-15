@@ -44,7 +44,7 @@ const Map = () => {
             </div>
             <div className="form">
               <div className="row">
-                <div className="col-md-6 col-lg-6 col-12 mt-4">
+                <div className="col-md-6 col-lg-6 col-12 mt-4 ">
                   <input
                     className="input-form"
                     placeholder="Enter first name"
@@ -75,7 +75,7 @@ const Map = () => {
                     name="subject"
                     type="text"
                     placeholder="Write something.."
-                    style={{height:"150px",width:"100%"}}
+                    style={{height:"150px",width:"98%"}}
                   ></textarea>
                 </div>
                

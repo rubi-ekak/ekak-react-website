@@ -1,9 +1,9 @@
 .flip-card {
     background-color: transparent;
     width: 200px;
-    height: 200px;
+    height: 250px;
     border: 1px solid #f1f1f1;
-   
+    border-radius: 10px;
    
   }
   
@@ -14,9 +14,9 @@
     height: 100%;
     text-align: center;
     transition: transform 0.8s;
-
+    
     transform-style: preserve-3d;
-    box-shadow: 1px 1px 5px grey;
+    box-shadow: 0 4px 8px 0 rgba(126, 124, 124, 0.2), 0 6px 20px 0 rgba(240, 195, 195, 0.19)
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -31,12 +31,13 @@
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    border-radius: 10px;
   }
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: #034c63;
+    color:#fff;
   }
   
   /* Style the back side */
@@ -45,3 +46,12 @@
     color: white;
     
   }
+  .social-link{
+    height: 4rem!important;
+    width: 4rem;
+  }
+  /* .css-i4bv87-MuiSvgIcon-root{
+    height: 4rem;
+    width: 4rem;
+  } */
+  

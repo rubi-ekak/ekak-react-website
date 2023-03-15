@@ -16,8 +16,8 @@ const About = () => {
               est sit culpa quaerat!
             </p>
             <div className="d-flex align-items-center justify-content-between">
-             <button className="bttn">buttion1  ➜</button>
-             <button className="bttn">buttion2  ➜</button>
+            <div><button className="bttn">buttion1  ➜</button></div>
+            <div> <button className="bttn">buttion2  ➜</button></div>
             </div>
             </div>
            

@@ -28,6 +28,7 @@ const mousehovering3=()=>{
           
         
         <div className="bgcolor-carousal-text text-light container-fluid">
+          <div className="p-4">
           <div className="row ">
             <div className="col-lg-3 col-md-3 col-sm-6 " onMouseOver={mousehovering1}>
               <h3>header</h3>
@@ -61,6 +62,7 @@ const mousehovering3=()=>{
                     button<span className="carousal-btn"><EastIcon/></span> 
                 </button>
             </div>
+          </div>
           </div>
         </div>
       </div>
