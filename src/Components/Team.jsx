@@ -19,7 +19,7 @@ const Team = () => {
 
         <div className="team-images">
           <div className="row">
-            <div className="col-md-3 col-lg-3 col-12 team flip-card">
+            <div className="col-md-2 col-lg-3 col-12 team flip-card">
               <div className="flip-inner">
                 <div className="flip-card-front">
                   <img
@@ -48,7 +48,7 @@ const Team = () => {
 
 
 
-            <div className="col-md-3 col-lg-3 col-12 team flip-card">
+            <div className="col-md-2 col-lg-3 col-12 team flip-card">
               <div className="flip-inner">
                 <div className="flip-card-front">
                   <img
@@ -72,7 +72,7 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-lg-3 col-12 team flip-card">
+            <div className="col-md-2 col-lg-3 col-12 team flip-card">
               <div className="flip-inner">
                 <div className="flip-card-front">
                   <img
@@ -96,23 +96,33 @@ const Team = () => {
                 </div>
               </div>
             </div>
+            <div className="col-md-2 col-lg-3 col-12 team flip-card">
+              <div className="flip-inner">
+                <div className="flip-card-front">
+                  <img
+                    src="young.avif"
+                    alt="team-images"
+                    className="team-member-image"
+                  ></img>
+                </div>
+
+                <div className="d-flex align-items-center justify-content-center flex-column flip-card-back">
+                  <a
+                    href="https://in.linkedin.com/in/rubi-prajapati-470538238?original_referer=https%3A%2F%2Fwww.google.com%2F"
+                    target="_blank"
+                  >
+                    <span className="middle">
+                      <LinkedInIcon />
+                    </span>
+                  </a>
+                  <h5>Rubi Prajapati</h5>
+                  <h6>(Frontend Developer)</h6>
+                </div>
+              </div>
+            </div>
+           
+           
             
-           
-           
-            <div className="col-md-3 col-lg-3 col-12 team">
-              <img
-                src="young.avif"
-                alt="team-images"
-                className="team-member-image"
-              ></img>
-              <span className="middle">
-                <LinkedInIcon />
-              </span>
-              <div className="d-flex align-items-center justify-content-center flex-column mt-4">
-                <h5>Name</h5>
-                <h6>Position</h6>
-              </div>
-            </div>
           </div>
         </div>
         <h1 className="text-center"></h1>
