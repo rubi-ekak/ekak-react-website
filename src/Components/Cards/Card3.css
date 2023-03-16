@@ -5,7 +5,7 @@
    
 }
 .card2-para{
-    /* text-align: center; */
+  
     margin-top: 2rem;
 }
 .card2-text{
@@ -14,7 +14,9 @@
 .card3-box3{
     position:absolute;
     left:5rem;
-    top:2rem;
+    top:3.5rem;
+    bottom:-3.5;
+    
    
 }
 .card3{
@@ -28,10 +30,7 @@ background-color: rgb(4, 99, 99);
     height:80vh;
     
 }
-/* .card2images {
-        height: 22rem;
-        width: 55rem;
-} */
+
 .card3-box1{
     background-color: black;
     color:white;
