@@ -49,7 +49,7 @@ const Carousal = () => {
                 </p>
                 <div className="overlayer">
                   <div>
-                    <h2>header2</h2>
+                    <h3>header2</h3>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Culpa perspiciatis porro laboriosam doloribus placeat animi.
                     <p className="mt-4">
@@ -73,7 +73,7 @@ const Carousal = () => {
                 </p>
                 <div className="overlayer">
                   <div>
-                    <h2>header2</h2>
+                    <h3>header2</h3>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Culpa perspiciatis porro laboriosam doloribus placeat animi.
                     <p className="mt-4">
@@ -97,7 +97,7 @@ const Carousal = () => {
                 </p>
                 <div className="overlayer">
                   <div>
-                    <h2>header2</h2>
+                    <h3>header2</h3>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Culpa perspiciatis porro laboriosam doloribus placeat animi.
                     <p className="mt-4">

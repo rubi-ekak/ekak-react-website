@@ -2,7 +2,7 @@
     background-color: transparent;
     width: 200px;
     height: 250px;
-    border: 1px solid #f1f1f1;
+   
    
    
   }
@@ -36,13 +36,13 @@
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #034c63;
-    color:#fff;
+    background-color: white;
+    color:rgb(73, 71, 71);
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color:#034c63;
+    background-color:rgb(22, 22, 22);
     color: white;
     
   }

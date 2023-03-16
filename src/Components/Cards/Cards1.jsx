@@ -5,7 +5,7 @@ import EastIcon from '@mui/icons-material/East';
 const Cards1 = () => {
   return (
     <section>
-      <div className="container-fluid main-container">
+      <div className=" main-container">
         <div className="newshort-container">
           <div className="short-img">
             <div className="short-img-bg"></div>
