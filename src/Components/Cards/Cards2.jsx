@@ -5,6 +5,7 @@ const Cards2 = () => {
   return (
     <section>
       <div className="container-fluid card2">
+        
         <div className="row ">
           <div className="col-md-6 col-lg-6 col-12 d-flex align-items-center justify-content-center card2-box1">
             <div className="card2-text">
