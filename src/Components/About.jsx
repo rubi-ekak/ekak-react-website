@@ -7,7 +7,7 @@ const About = () => {
       <div className="container-fluid aboutsection">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-12 d-flex align-items-center justify-content-center">
-            <div>
+            <div className="about-padding">
             <h1 className="about-head">About section</h1>
             <p className="about-para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
