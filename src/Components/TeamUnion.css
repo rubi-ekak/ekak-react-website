@@ -3,7 +3,7 @@
     width: 200px;
     height: 250px;
     border: 1px solid #f1f1f1;
-    border-radius: 10px;
+   
    
   }
   
@@ -31,7 +31,7 @@
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
-    border-radius: 10px;
+   
   }
   
   /* Style the front side (fallback if image is missing) */
@@ -50,8 +50,5 @@
     height: 4rem!important;
     width: 4rem;
   }
-  /* .css-i4bv87-MuiSvgIcon-root{
-    height: 4rem;
-    width: 4rem;
-  } */
+ 
   

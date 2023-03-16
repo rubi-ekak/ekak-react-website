@@ -22,11 +22,41 @@ img{
     max-height: 100%;
     display: block; /* remove extra space below image */
 }
+
 .imgcarousel{
   width: 100%;
   height:70vh;
-  /* background-color: red; */
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 .carousal-btn{
   margin-left: 2rem;
+}
+.banner{
+  position: relative;
+ 
+  
+}
+.imgcarousel-no-filter{
+  width: 100%;
+  height:70vh;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+.content-box{
+  position: relative;
+}
+.content-box:hover .overlayer{
+  bottom:0;
+  height:100%;
+}
+.overlayer{
+position: absolute;
+background-color:black;
+width: 100%;
+height:0;
+top:0;
+bottom:100%;
+overflow:hidden;
+text-align:left;
 }
