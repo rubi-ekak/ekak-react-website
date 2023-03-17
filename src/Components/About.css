@@ -1,5 +1,6 @@
 .aboutsection{
   padding:4rem 6rem;  
+
 }
 .about-para{
     text-align:left;
@@ -9,12 +10,20 @@
 }
 .bttn{
     height:3rem;
-    width:14em;
-    
-
+    width:14rem;
+  
+   
     background-color: black;
     color:#ffff;
 
+}
+.bttn:hover{
+
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+    transition: all 1s ease-in;
+    -webkit-transition:all 1s ease-in ;
 }
 .about-padding{
   padding: 3rem;

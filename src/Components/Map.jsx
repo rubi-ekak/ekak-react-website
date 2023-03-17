@@ -45,26 +45,26 @@ const Map = () => {
             <div className="form">
               <div className="row">
                 <div className="col-md-6 col-lg-6 col-12 mt-4 ">
-                  <input
+                  <input type="text"
                     className="input-form"
                     placeholder="Enter first name"
                   ></input>
                 </div>
                 <div className="col-md-6 col-lg-6 col-12 mt-4">
-                  <input
+                  <input type="text"
                     className="input-form"
                     placeholder="Enter last name"
                   ></input>
                 </div>
                 <div className="col-md-6 col-lg-6 col-12 mt-4">
-                  <input
+                  <input type="text"
                     className="input-form"
                     type="number"
                     placeholder="Enter phone number"
                   ></input>
                 </div>
                 <div className="col-md-6 col-lg-6 col-12 mt-4">
-                  <input
+                  <input type="text"
                     className="input-form"
                     placeholder="Enter email address"
                   ></input>
@@ -75,7 +75,7 @@ const Map = () => {
                     name="subject"
                     type="text"
                     placeholder="Write something.."
-                    style={{height:"150px",width:"98%"}}
+                    style={{height:"150px",width:"100%"}}
                   ></textarea>
                 </div>
                

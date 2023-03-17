@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
+// import "bootstrap/dist/js/bootstrap.min.js";
 import "./App.css";
 import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import "./fonts/gilroy/Gilroy-Bold.ttf";

@@ -26,9 +26,10 @@
   background-color: rgb(29, 28, 28);
 }
 .input-form {
-  height: 2rem;
-  width: 16rem;
+  height:auto;
+ width:100%;
  
+ -webkit-box-shadow:1px 1px 1px rgb(236, 231, 231);
   box-shadow: 1px 1px 1px rgb(236, 231, 231);
   cursor: pointer;
 }
@@ -60,6 +61,7 @@
     border: 2px solid white;
     background-color: transparent;
 }
+
 .arrow{
     padding-left: 2rem;
     height:5rem;

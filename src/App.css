@@ -35,24 +35,26 @@
   font-weight: normal;
 }
 
-
 .heading {
   font-family: "Gilroy-Bold", sans-serif;
-  color:var(--text-primary);
+  color: var(--text-primary);
 }
-:root{
-  --primary-color:"";
-  --secondary-color:"";
-  --text-primary:red;
-  --text-secondary:"";
+:root {
+  --primary-color: "";
+  --secondary-color: "";
+  --text-primary: red;
+  --text-secondary: "";
 }
-html,body{
+html,
+body {
   overflow-x: hidden;
 }
-*{
+* {
   padding: 0;
   border: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-    font-size: 14px;
-    font-family: "Gilroy-Regular",sans-serif!important
+  font-size: 14px;
+  font-family: "Gilroy-Regular", sans-serif !important;
+ 
 }
