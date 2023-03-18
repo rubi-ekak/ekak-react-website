@@ -1,6 +1,8 @@
 import React from "react";
 import "./Navbar.css";
 import SearchIcon from "@mui/icons-material/Search";
+import { NavLink } from "react-router-dom";
+import Home from "./Home";
 const Navbar = () => {
   return (
     <section className="container-fluid">
@@ -26,18 +28,21 @@ const Navbar = () => {
                   </button>
                   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                      <a className="nav-link active" aria-current="page" href="#">
-                        Home
-                      </a>
-                      <a className="nav-link" href="#">
-                        Clean Energy
-                      </a>
-                      <a className="nav-link" href="#">
-                        Mobility
-                      </a>
-                      <a className="nav-link" href="#">
-                        Ekakshar
-                      </a>
+                      <NavLink to="/"  className="nav-link active" >
+                      Home
+                      </NavLink>
+                     
+                      <NavLink to="/cleanenergy" className="nav-link" >
+                      Clean Energy
+                      </NavLink>
+                    
+                      <NavLink  to="/mobility" className="nav-link">
+                      Mobility
+                      </NavLink>
+                      <NavLink  to="/ekakshar" className="nav-link">
+                      Ekakshar
+                      </NavLink>
+                      
                     </div>
                   </div>
                 </div>

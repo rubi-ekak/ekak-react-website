@@ -1,7 +1,9 @@
 .logo{
     font-family:"Gilroy-HeavyItalic";
     font-size:55px;
+    
     text-shadow: 1px 1px 1px black;
+
     color:teal;
 }
 .search-icon{
@@ -29,7 +31,7 @@
 .navbar-collapse{
   font-size: 20px;
     justify-content:end;
-    font-family: "Gilroy-Bold",sans-serif;
+    font-family: "Gilroy-Bold",sans-serif!important;
      text-shadow: 1px 1px 1px #000000;;
 
 }

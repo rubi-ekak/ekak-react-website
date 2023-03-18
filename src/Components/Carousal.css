@@ -59,4 +59,5 @@ top:0;
 bottom:100%;
 overflow:hidden;
 text-align:left;
+transition: all 1s ease-in;
 }
