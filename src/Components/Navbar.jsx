@@ -29,7 +29,7 @@ const Navbar = () => {
                   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                       <NavLink to="/"  className="nav-link active" >
-                      Home
+                      Home 
                       </NavLink>
                      
                       <NavLink to="/cleanenergy" className="nav-link" >

@@ -8,7 +8,7 @@ const About = () => {
         <div className="row">
           <div className="col-md-6 col-lg-6 col-12 d-flex align-items-center justify-content-center">
             <div className="about-padding">
-            <h1 className="about-head">About us</h1>
+            <h1 className="about-head">About </h1>
             <p className="about-para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
               dolores recusandae error rem libero vel. Maiores, eius, alias
