@@ -10,6 +10,7 @@ const About = () => {
             <div className="about-padding">
             <h1 className="about-head">About </h1>
             <p className="about-para">
+              friend
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
               dolores recusandae error rem libero vel. Maiores, eius, alias
               autem earum facilis praesentium quas debitis obcaecati, molestias

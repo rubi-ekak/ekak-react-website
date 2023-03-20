@@ -1,6 +1,6 @@
 ---
 deployment:
- tasks:
- - export DEPLOYPATH=/home/ekakivy3/public_html/
- - /bin/cp * $DEPLOYPATH
- 
+  tasks:
+    - export DEPLOYPATH=/home/ekakivy3/public_html/testekak.ekak.in
+    - /bin/cp -R * $DEPLOYPATH
+    
