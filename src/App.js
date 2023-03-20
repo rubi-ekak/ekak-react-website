@@ -16,9 +16,6 @@ const TRACKING_ID = "UA-260928288-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
-  // useEffect(() => {
-  //   ReactGA.pageview(window.location.pathname + window.location.search);
-  // }, [location]);
 
 
   return (
