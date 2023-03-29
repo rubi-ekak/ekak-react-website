@@ -1,14 +1,33 @@
-import React, { useState } from "react";
+import React, { useState ,useEffect} from "react";
 import "./Carousal.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import EastIcon from "@mui/icons-material/East";
+import ReactGA from "react-ga4";
+
+
 
 const Carousal = () => {
+
+
+
+
   const [images, setImages] = useState(
     "https://ekak.in/assets/images/banner1.jpg"
   );
 
   const [carousalfilter, setcarousalfilter] = useState("imgcarousel");
+
+ 
+  const handleShowdirection = () => {
+    ReactGA.event({
+      category: 'Links',
+      action: ' carousal data button',
+      label: ' button clicked!',
+      value: 1
+    });
+  }
+
+  
 
   const mousehovering1 = () => {
     setImages("https://ekak.in/assets/images/banner1.jpg");
@@ -22,6 +41,9 @@ const Carousal = () => {
       "https://ekak.in/assets/images/partners-fotolia_61152717_subscription_monthly_xxl.jpg"
     );
   };
+
+
+
   return (
     <section>
       <div className="">
@@ -54,8 +76,6 @@ const Carousal = () => {
                     Culpa perspiciatis porro laboriosam doloribus placeat animi.
                     <p className="mt-4">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                     
-                     
                     </p>
                   </div>
                 </div>
@@ -78,8 +98,6 @@ const Carousal = () => {
                     Culpa perspiciatis porro laboriosam doloribus placeat animi.
                     <p className="mt-4">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                     
-                     
                     </p>
                   </div>
                 </div>
@@ -102,14 +120,16 @@ const Carousal = () => {
                     Culpa perspiciatis porro laboriosam doloribus placeat animi.
                     <p className="mt-4">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                     
-                     
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-3 col-md-3 col-sm-6 d-flex justify-content-center align-items-center">
-                <button className="carousal-button ">
+                <button
+                  className="carousal-button "
+                  type="submit"
+                  onClick={handleShowdirection}
+                >
                   button
                   <span className="carousal-btn">
                     <EastIcon />
