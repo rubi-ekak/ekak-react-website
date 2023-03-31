@@ -8,14 +8,17 @@ import Footer from './Footer'
 import Map from './Map'
 import Navbar from './Navbar'
 import Team from './Team'
+import { googleAnalyticsActions } from '../utils/googleAnalytics/GoogleAnalytics-init'
 
-import ReactGA from "react-ga4";
 
 
 
 
 const Home = () => {
- 
+  useEffect(()=>{
+    googleAnalyticsActions.initGoogleAnalytics("UA-260928288-1")
+      console.log(window.location.pathname)
+   },[])
   
   return (
     <div>
