@@ -1,30 +1,68 @@
 .card2-box1 {
-  background-color: black;
-  color: white;
+  background-color: #FBE1BC;
+  color: #073433;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  height: 80vh;
+  height:81vh;
   
 }
 .card2-para {
   margin-top: 2rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-family: "Calluna-Regular"!important;
+  text-align: justify;
 }
 .card2-text {
-  /* margin: 4rem; */
   border-left: 2px solid rgb(65, 64, 64);
   padding: 2rem;
 }
 .card2-box2 {
   position: absolute;
   right: 5rem;
-  top: 3.5rem;
+  top:4.1rem;
+ 
 }
 .card2 {
   position: relative;
-  background-color: rgb(60, 174, 240);
+  background-color:#AEDBED;
 }
 
-.card2images {
+/* .card2images {
   width: 53rem;
+} */
+.card2-header{
+   font-weight: 600;
+}
+@media (min-width:320px) and (max-width:480px){
+  .card2-box1 {
+    background-color: #2F2725;
+    color: #ffff;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 75vh;
+    
+  }
+  .card2-box2 {
+  
+    right:0rem;
+    top: 1rem;
+  }
+  .card2-para{
+    margin-top: 2rem;
+    text-align:justify!important;
+  
+    font-size: 1.2rem;
+    font-family: "Calluna-Regular"!important;
+  }
+  .card2-text {
+  
+    margin-top:18rem;
+    border-left: 2px solid rgb(65, 64, 64);
+    padding: 1rem;
+  }
+  .card-float
+  {
+    display: flex;
+    flex-direction: column;
+  }
 }

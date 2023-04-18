@@ -1,11 +1,9 @@
-.team-header-section{
-    
-    margin-top: 5rem;
-}
+
 .team-header{
-    padding: 2rem;
-    background-color: rgb(240, 235, 235);
-    height:10rem;
+    padding: 1rem;
+    background-color:#84CAE4;
+    height:auto;
+     color: #073433; 
 }
 .team-images{
     padding: 7rem 3rem;
@@ -17,7 +15,11 @@
 
     
 }
-
+.Innovators-headline{
+  color: #232323;
+  font-family: "Gilroy-Bold";
+  font-weight: 600;
+}
 
 .flip-inner {
     position: relative;
@@ -46,3 +48,4 @@
     color: white;
     transform: rotateY(180deg);
   }
+  

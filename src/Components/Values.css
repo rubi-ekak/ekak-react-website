@@ -1,0 +1,235 @@
+.values-padding{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+   
+}
+.big-circle{
+    width: 10rem;
+    height: 3.5rem;
+    
+    border-radius: 2rem;
+    
+
+   
+}
+.values-head{
+    font-weight: 600;
+    color: #232323;
+}
+.value-background{
+    /* background-color:#CFCFCF ; */
+}
+
+
+.big-circle1{
+    background-image: linear-gradient(to right,#0d6667,#034c63);
+    box-shadow: 0.2,0.2,0.2,0.2 rgb(225, 221, 221);
+    padding-left:0.4rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.3rem;
+}
+
+.big-circle2{
+    background-image: linear-gradient(to right,rgba(117, 113, 113, 0.04),rgba(151, 147, 147, 0.73) );
+    box-shadow: 0.2,0.2,0.2,0.2 rgb(246, 244, 244);
+    padding-right:0.4rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.3rem;
+}
+
+.big-circle3{
+    background-image: linear-gradient(to left,rgba(117, 113, 113, 0.04),rgba(151, 147, 147, 0.73) );
+    box-shadow: 0.2,0.2,0.2,0.2 rgb(246, 244, 244);
+    padding-left:0.4rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.3rem;
+}
+.small-circle1{
+    width:2.5rem;
+    height: 2.5rem;
+    background-color:#FFFF;
+    border-radius: 2rem;
+    
+}
+.small-circle2{
+    width:2.5rem;
+    height: 2.5rem;
+    background-image: linear-gradient(to right, rgb(100, 7, 7),rgb(242, 94, 94));
+    border-radius: 2rem;
+    
+}
+.small-circle3{
+    width:2.5rem;
+    height: 2.5rem;
+    background-image: linear-gradient(to right,rgb(243, 243, 144),rgb(244, 188, 44));
+    border-radius: 2rem;
+    
+}
+.create-value{
+    width: 3.5rem;
+    height: 9rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-top:8px;
+    background-image:linear-gradient(to bottom,rgba(117, 113, 113, 0.04),rgba(151, 147, 147, 0.73)) ;
+}
+.create-circle{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #ffff;
+    border-radius: 2rem;
+}
+.create-circle1{
+    height: 5em;
+    width: 4.5rem;
+    background-color: #610808;
+    border-radius: 5rem;
+    position: absolute;
+    top: 6rem;
+    
+}
+.create{
+    position: relative;
+}
+.text-create{
+    margin-top: 4rem;
+}
+.integrity-value{
+    width: 3.5rem;
+    height: 12rem;
+    background-image:linear-gradient(to top,rgba(34, 126, 126, 0.04),rgba(151, 147, 147, 0.73)) ;
+  
+    border-radius: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 8px;    
+    transform: rotate(48deg);
+}
+
+
+.integrity-circle{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #128488;
+    border-radius: 2rem;
+}
+.integrity-value2{
+    width: 3.5rem;
+    height: 12rem;
+    background-image:linear-gradient(to top,rgba(117, 113, 113, 0.04),rgba(151, 147, 147, 0.73)) ;
+    border-radius: 2rem;
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: center; */
+    padding-bottom: 8px;
+    transform: rotate(-48deg);
+    
+   
+  
+}
+.integrity-circle1{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-image:linear-gradient(to top,rgb(255, 234, 0),rgb(230, 143, 72)) ;
+    border-radius: 2rem;
+    margin-top: 8px;
+}
+.team-value{
+    width: 3.5rem;
+    height: 10rem;
+    background-image:linear-gradient(to top,rgba(117, 113, 113, 0.04),rgba(151, 147, 147, 0.73)) ;
+    border-radius: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 8px;
+  position: absolute;
+  
+  right: 16rem;
+    transform: rotate(47deg);
+}
+.team-circle{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #128488;
+    border-radius: 2rem;
+}
+.team-value2{
+    width: 3.5rem;
+    height: 10rem;
+    background-image:linear-gradient(to bottom,rgba(117, 113, 113, 0.04),rgba(151, 147, 147, 0.73)) ;
+    border-radius: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 8px;
+    transform: rotate(-50deg);
+    position: absolute;
+    top: 1rem;
+    right: 10rem;
+}
+.team-value3{
+    width: 3.5rem;
+    height: 10rem;
+    background-image:linear-gradient(to top,rgba(117, 113, 113, 0.04),rgba(151, 147, 147, 0.73)) ;
+    /* background-size: 180% 180%; */
+   
+    border-radius: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 8px;
+    transform: rotate(225deg);
+    position: absolute;
+    top: 5rem;
+    right:10rem;
+} 
+
+
+
+.team-circle1{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-image: linear-gradient(to bottom,rgb(215, 78, 78),rgb(160, 56, 184),rgb(255, 0, 212));
+    border-radius: 2rem;
+}
+
+.team-circle2{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-image: linear-gradient(to right,rgb(129, 202, 129),rgb(126, 184, 56),rgb(78, 215, 206));
+    border-radius: 2rem;
+    margin-top:8px;
+}
+.team-value4{
+    width: 3.5rem;
+    height: 10rem;
+    background-image:linear-gradient(to top,rgba(117, 113, 113, 0.04),rgba(151, 147, 147, 0.73)) ;
+    border-radius: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 8px;
+    transform: rotate(-50deg);
+    position: absolute;
+    top:5rem;
+    right: 16rem;
+}
+.value{
+     color: #232323;
+     font-weight: 600;
+     font-size:1.8rem;
+}
+.value-para{
+    color: #073433;
+    font-size: 1rem;
+}
+.team-circle3{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-image:linear-gradient(to top,rgb(255, 234, 0),rgb(230, 143, 72)) ;
+    border-radius: 2rem;
+    margin-top: 0.7rem;
+}

@@ -1,11 +1,12 @@
 .googlecontainer {
-  margin-top: 4rem;
+  background-color: #FBE1BC;
+  color: #073433;
 }
 .buttn1 {
   height: 3rem;
   width: 15rem;
-  background-color: rgb(71, 67, 67);
-  color: white;
+  background-color: #534F7E;
+  color: #ffff;
 }
 .buttn2 {
   height: 3rem;
@@ -14,20 +15,27 @@
   color: white;
 }
 .mapdata {
-  padding: 3.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .queries {
   text-align: center;
   font-family: "Gilroy-Bold", sans-serif;
   padding-top: 1rem;
-  color: #ffff;
+  color:white;
+  background-color:#073433;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.form-container {
+/* .form-container {
   background-color: rgb(29, 28, 28);
-}
+} */
 .input-form {
-  height:auto;
+  height:2.5rem;
  width:100%;
+ padding-left: 1rem;
  
  -webkit-box-shadow:1px 1px 1px rgb(236, 231, 231);
   box-shadow: 1px 1px 1px rgb(236, 231, 231);
@@ -37,14 +45,17 @@
   outline: rgb(243, 241, 241);
 }
 .form {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
 }
 .text-area {
  
   box-shadow: 1px 1px 1px rgb(236, 231, 231);
   cursor: help;
+  height: 13rem;
+  width: 100%;
+  padding-left: 1rem;
 }
 .text-area:focus {
   outline: rgb(243, 241, 241);
@@ -57,9 +68,9 @@
 }
 
 .btnsubmit{
-    margin-top:2rem;
-    border: 2px solid white;
-    background-color: transparent;
+    margin-top:1rem;
+   
+    /* background-color: transparent; */
 }
 
 .arrow{
@@ -68,4 +79,73 @@
 }
 .address-text{
   line-height: 3rem;
+  color: #0A4D4D;
+  font-weight: 600;
+}
+.ekak-head{
+  color: #232323;
+  font-family: "Gilroy-Bold";
+  font-weight: 600;
+}
+.ekak{
+  color: #232323;
+  font-family: "Gilroy-Bold";
+  font-weight: 600;;
+  font-family: "Gilroy-Bold";
+  font-weight: 600;
+}
+.form-container{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.form-dark{
+  background-color:#AEDBED ;
+}
+.label-form{
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #073433;
+}
+.form{
+ background-color: #AEDBED;
+ /* margin: 1rem; */
+ border-radius: 0.5rem;
+}
+.tell-div{
+  margin-top: 1.5rem;
+}
+#contact{
+  color: #232323;
+  font-family: "Gilroy-Bold";
+  font-weight: 600;
+}
+
+@media (min-width:320px) and (max-width:480px){
+  .mapdata {
+    padding-left: 0rem;
+    padding-right: 0rem;}
+
+    .form{
+      background-color: #AEDBED;
+      margin: 0rem;
+      border-radius: 0.5rem;
+     }
+     .input-form {
+      height:1.8rem;
+     width:100%;
+     padding-left: 1rem;
+     
+     -webkit-box-shadow:1px 1px 1px rgb(236, 231, 231);
+      box-shadow: 1px 1px 1px rgb(236, 231, 231);
+      cursor: pointer;
+    }
+    .text-area {
+ 
+      box-shadow: 1px 1px 1px rgb(236, 231, 231);
+      cursor: help;
+      height: 8rem;
+    }
+    .tell-div{
+      margin-top: 1rem;
+    }
+    
 }

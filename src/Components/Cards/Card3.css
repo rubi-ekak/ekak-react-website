@@ -7,6 +7,7 @@
 .card2-para{
   
     margin-top: 2rem;
+    font-family: "Calluna-Regular"!important;
 }
 .card2-text{
     margin:6rem;
@@ -14,26 +15,41 @@
 .card3-box3{
     position:absolute;
     left:5rem;
-    top:3.5rem;
+    top:3.4rem;
+    bottom: 3.4rem;
    
     
    
 }
 .card3{
 position: relative;
-background-color: rgb(4, 99, 99);
+background-color:#AEDBED;
 
 }
 .card3-box1{
-    margin-top:0;
-    margin-bottom:0;
-    height:80vh;
-    
-}
-
-.card3-box1{
-    background-color: black;
-    color:white;
+    /* margin-top:0;
+    margin-bottom:0; */
+    height:81vh;
+    background-color: #FBE1BC;
+    color: #073433;
   
-   
+}
+
+
+.card3-header{
+    font-weight: 600;
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .card2-text{
+        margin:0rem;
+    }
+    .card3-box3{
+        position:absolute;
+        left:0rem;
+        top:1rem;
+       
+        
+       
+    }
 }

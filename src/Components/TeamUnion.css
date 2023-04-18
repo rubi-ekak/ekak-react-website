@@ -37,18 +37,22 @@
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: white;
-    color:rgb(73, 71, 71);
+     color: #073433;
+     font-weight: 600;
   }
   
   /* Style the back side */
   .flip-card-back {
     background-color:rgb(22, 22, 22);
-    color: white;
+    color: #207978;
     
   }
   .social-link{
     height: 4rem!important;
     width: 4rem;
+  }
+  .team{
+    /* background-color: #F5F2ED; */
   }
  
   

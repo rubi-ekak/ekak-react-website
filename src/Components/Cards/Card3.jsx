@@ -8,20 +8,24 @@ const Card3 = () => {
         <div className="row flex-row-reverse">
           <div className="col-md-6 col-lg-6 col-12 d-flex align-items-center justify-content-center card3-box1">
             <div className="card2-text">
-              <h1>Card3 section</h1>
+              <h1 className="card3-header">IT Transformation</h1>
               <p className="card2-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis dolores recusandae error rem libero vel. Maiores,
-                eius, alias autem earum facilis praesentium quas debitis
-                obcaecati, molestias est sit culpa quaerat!
+                Digital Transformation is a top priority for any business and its supply chain,
+                which is why we offer cutting-edge information technology solutions safety that utilize
+                machine learning and AI. Our products help prevent hazards in
+                factories and warehouses, improve road safety, and enhance
+                supply chain tracking and logistics. Whether you're looking for
+                a way to prevent accidents and injuries, improve worker
+                productivity, or ensure regulatory compliance, we have the
+                expertise and technology to help.
               </p>
             </div>
           </div>
           <div className="col-md-6 col-lg-6 col-12  card3-box3">
             <img
-              src="about1jpg.jpg"
-              alt="imges"
-              className="img-fluid card2images"
+              src="/Ekak_WebsitePictures/ARGUS_arno-senoner-oLS6IxceVNs-unsplash1.jpg"
+              alt="images"
+              className="img-fluid card2images size-image"
             ></img>
           </div>
         </div>

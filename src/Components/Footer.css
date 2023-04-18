@@ -26,7 +26,7 @@
     background-color: transparent;
 }
 .footer-content{
-    background-color: black;
+    background-color: #534F7E;
     color: #ffff;
 }
 .home{
@@ -38,10 +38,15 @@
 }
 .paracopyright{
     font-size:15px;
+    padding-top:1rem;
 }
 .paracopyright1{
-    font-size: 15px;
+    font-size:1rem;
+  
 }
 .horizontal-line{
     width:30rem;
+}
+.copright-text{
+    font-size: 1rem;
 }

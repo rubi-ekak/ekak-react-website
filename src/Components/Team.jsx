@@ -3,24 +3,22 @@ import "./Team.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { useState } from "react";
 import TeamUnion from "./TeamUnion";
+import Founder from "./Founder";
+import Card3 from "./Cards/Card3";
 
 const Team = () => {
   return (
-    <section>
-      <div className="team-header-section">
-        <div className="team-header">
-          <h3 className="Innovators-headline">Ekak Innovators</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
-            libero molestiae vero doloribus accusantium. Error, obcaecati
-            molestias architecto voluptate magnam saepe ducimus laudantium dicta
-            optio doloremque. Voluptates ut consectetur doloribus?
-          </p>
-        </div>
-
-        <TeamUnion/>
-
-        
+    <section id="team">
+      <div className="team-header-section" >
+        {/* <div className="team-header text-center">
+          <h1 className="Innovators-headline">About the Founder</h1> */}
+          {/* <p className="Innovators-para">
+           
+          </p> */}
+        {/* </div> */}
+       
+        <Founder/>
+        {/* <TeamUnion /> */}
       </div>
     </section>
   );

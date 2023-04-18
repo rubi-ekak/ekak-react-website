@@ -3,12 +3,14 @@ import About from './About'
 import Card3 from './Cards/Card3'
 import Cards1 from './Cards/Cards1'
 import Cards2 from './Cards/Cards2'
-import Carousal from './Carousal'
 import Footer from './Footer'
 import Map from './Map'
 import Navbar from './Navbar'
 import Team from './Team'
 import { googleAnalyticsActions } from '../utils/googleAnalytics/GoogleAnalytics-init'
+import Card4 from './Cards/Card4'
+import Carousal1 from './Carousal1'
+import CompanyValues from './Cards/CompanyValues'
 
 
 
@@ -21,16 +23,20 @@ const Home = () => {
    },[])
   
   return (
-    <div>
+    <div >
       <Navbar/>
-      <Carousal/>
+      <Carousal1/>
       <About/>
       <Cards1/>
       <Cards2/>
       <Card3/>
-      <Team/>
+      <Card4/>
+      <CompanyValues/>
+       <Team/>
       <Map/>
       <Footer/>
+
+    
     </div>
   )
 }

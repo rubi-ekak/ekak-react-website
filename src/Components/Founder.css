@@ -1,0 +1,44 @@
+.founder-section{
+    padding: 8rem 8.5rem;
+}
+.Innovators-para{
+    color: #073433;
+   font-size: 1rem;
+   font-family: "Calluna-Regular"!important;
+  }
+  .founter-headline{
+    color: #073433;
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .founder-section{
+      padding: 2.5rem 2.5rem;
+  }.Innovators-para{
+    color: #073433;
+    text-align: justify;
+   font-size: 1.1rem;
+   font-family: "Calluna-Regular"!important;
+  }
+
+  }
+
+
+
+  .card3-founder{
+    position:absolute;
+    left:24rem;
+    top:4.5rem;
+   
+  }
+  .card3founder{
+    margin-top:0;
+    margin-bottom:0;
+    height:65vh;
+    background-color: #FBE1BC;
+    color: #073433;
+  
+    
+  }
+  .card2images{
+    /* box-shadow: 8px 8px 12px 2px #073433; */
+    box-shadow: 0 0.5rem 1.2rem #073433;
+  }

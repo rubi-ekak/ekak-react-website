@@ -5,10 +5,9 @@ import "./fonts/gilroy/Gilroy-Bold.ttf";
 import Home from "./Components/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ReactGA from "react-ga4";
-import { useEffect } from "react";
 import CleanEnergy from "./Components/CleanEnergy";
-import Mobility from "./Components/Mobility";
-import Ekakshar from "./Components/Ekakshar";
+// import { ContactUs } from "./Components/Cards/ContactUs";
+import ContactForm from "./Components/Cards/ContactForm";
 
 
 
@@ -19,16 +18,16 @@ function App() {
  
 
   return (
-    <div className="container-fluid">
-    
-      <Router>
-        <Routes>
-        <Route path="/" element={<Home />} />       
-        <Route path="/cleanenergy" element={<CleanEnergy />} />
-        <Route path="/mobility" element={<Mobility />} />
-        <Route path="/ekakshar" element={<Ekakshar />} />
-        </Routes>
-      </Router>
+    <div className="">
+      <Home/>
+      {/* <Router>
+        <Routes> */}
+   {/* <ContactForm/> */}
+        {/* <Route path="/" element={<Home />} />        */}
+         {/* <Route path="/cleanenergy" element={<CleanEnergy />} /> */}
+        
+        {/* </Routes>
+      </Router> */}
     </div>
   );
 }

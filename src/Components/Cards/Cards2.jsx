@@ -5,22 +5,26 @@ const Cards2 = () => {
   return (
     <section>
       <div className="container-fluid card2">
-        
-        <div className="row ">
+        <div className="row card-float">
           <div className="col-md-6 col-lg-6 col-12 d-flex align-items-center justify-content-center card2-box1">
             <div className="card2-text">
-              <h1>Card2 section</h1>
+              <h1 className="card2-header">Renewable Energy</h1>
               <p className="card2-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis dolores recusandae error rem libero vel. Maiores,
-                eius, alias autem earum facilis praesentium quas debitis
-                obcaecati, molestias est sit culpa quaerat!
+                At Ekak, we believe in the power of renewable energy to
+                transform communities and improve lives. That's why we're proud
+                to offer a range of solar lamps and solar charging hubs with
+                remote monitoring systems. Our products are designed to be
+                energy-efficient, durable, and affordable, making them ideal for
+                use in a variety of settings, including rural communities,
+                emergency response situations, and off-grid locations. With
+                remote monitoring, you can easily track performance and manage
+                maintenance needs, ensuring optimal operation and reliability.
               </p>
             </div>
           </div>
           <div className="col-md-6 col-lg-6 col-12  card2-box2">
             <img
-              src="https://bauminform.ru/static/media/cube2.6045face.png"
+              src="/Ekak_WebsitePictures/RenewableEnergy_mariana-proenca-GXiHwHkIdVs-unsplash1.jpg"
               alt="images"
               className="img-fluid card2images"
             ></img>

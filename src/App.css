@@ -34,13 +34,22 @@
     url("./fonts/gilroy/Gilroy-HeavyItalic.ttf") format("truetype");
   font-weight: normal;
 }
-
+@font-face {
+  font-family: "Calluna-Regular";
+  src: local("Calluna-Regular"),
+    url("./fonts/calluna/Calluna-Regular.otf") format("otf");
+  font-weight: normal;
+}
 .heading {
   font-family: "Gilroy-Bold", sans-serif;
   color: var(--text-primary);
 }
 :root {
-  --primary-color: "";
+  --primary-color1: #0D6667;
+  --primary-color2: #13989B;
+  --primary-color3: #0697C9;
+  --primary-color4: #023341;
+
   --secondary-color: "";
   --text-primary: red;
   --text-secondary: "";
