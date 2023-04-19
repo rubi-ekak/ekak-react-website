@@ -45,7 +45,7 @@ const Footer = () => {
                 <span>+91 0512 402 8469</span>{" "}
               </div> */}
               <div className="d-flex align-items-center ">
-                <EmailOutlinedIcon className="home" />{" "}
+                <EmailOutlinedIcon className="home" />
                 <span>contact@ekak.in </span>
               </div>
             </div>

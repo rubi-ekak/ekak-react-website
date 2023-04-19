@@ -9,24 +9,10 @@
   .founter-headline{
     color: #073433;
   }
-  @media (min-width:320px) and (max-width:480px){
-    .founder-section{
-      padding: 2.5rem 2.5rem;
-  }.Innovators-para{
-    color: #073433;
-    text-align: justify;
-   font-size: 1.1rem;
-   font-family: "Calluna-Regular"!important;
-  }
-
-  }
-
-
-
   .card3-founder{
     position:absolute;
     left:24rem;
-    top:4.5rem;
+    top:3.8rem;
    
   }
   .card3founder{
@@ -42,3 +28,39 @@
     /* box-shadow: 8px 8px 12px 2px #073433; */
     box-shadow: 0 0.5rem 1.2rem #073433;
   }
+/* .founderpic{
+  height:25rem;
+   width:21rem;
+} */
+
+  @media (min-width:320px) and (max-width:480px){
+    .founder-section{
+      padding: 2.5rem 2.5rem;
+  }.Innovators-para{
+    color: #073433;
+    text-align: justify;
+   font-size: 1.1rem;
+   font-family: "Calluna-Regular"!important;
+  }
+
+  .card3-founder{
+    position:absolute;
+     left: 1rem;
+    right: 0rem;
+    top:1rem;
+   
+  }
+/* .founderpic{
+  height:19rem;
+  width:16rem;
+} */
+.card3founder{
+  margin-top:8rem;
+  margin-bottom:0;
+  height:90vh;
+
+
+
+  
+}
+}

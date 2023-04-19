@@ -128,6 +128,10 @@
       background-color: #AEDBED;
       margin: 0rem;
       border-radius: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0.5rem;
+  
      }
      .input-form {
       height:1.8rem;

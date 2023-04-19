@@ -50,3 +50,20 @@
 .copright-text{
     font-size: 1rem;
 }
+@media (min-width:320px) and (max-width:480px){
+    .copright-text{
+        font-size: 0.8rem;
+        margin-bottom:0rem;
+    }
+.footer-contacts{
+    justify-content:center;
+}
+.logosmall{
+    height: auto;
+    width: 6rem;
+}
+.paracopyright {
+    font-size: 15px;
+    padding-top: 0.1rem
+}
+}

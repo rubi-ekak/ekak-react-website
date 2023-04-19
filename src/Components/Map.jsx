@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import "./Map.css";
+import  { useRef } from 'react';
+import useAnalytics from "../UseAnalytics";
+import emailjs from '@emailjs/browser';
 
 const Map = () => {
+  const form = useRef();
+  const gaEventTracker=useAnalytics("contact us")
   const [formState, setFormstate] = useState({
     name: '',
     email: '',
@@ -22,16 +27,24 @@ const Map = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+
+    emailjs.sendForm('service_ui9c86u', 'template_zltqkdy', form.current, 'fwkH5vVAz4S7nSxEE')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
   
-    const response = await fetch('http://localhost:3001/api/data', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formState),
-    });
-    const data = await response.json();
-    console.log(data);
+    // const response = await fetch('http://localhost:3001/api/data', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'application/json',
+    //   },
+    //   body: JSON.stringify(formState),
+    // });
+    // const data = await response.json();
+    // console.log(data);
   };
 
 
@@ -65,8 +78,8 @@ const Map = () => {
                 <br></br> Landline- 0512-4028469
               </h5>
               <div className="d-flex mb-4">
-                <button className="buttn1">Call</button>
-                <button className="buttn2">Email</button>
+                <button className="buttn1" onClick={()=>gaEventTracker('call')}>Call</button>
+                <button className="buttn2" onClick={()=>gaEventTracker('email')}>Email</button>
               </div>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7313863.537723742!2d71.87732079999998!3d26.480782200000018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c392da08baac5%3A0xe017ff6ddee72c2c!2sEkak%20Innovations!5e0!3m2!1sen!2sin!4v1678448419008!5m2!1sen!2sin"
@@ -81,7 +94,7 @@ const Map = () => {
           </div>
           <div className="map-images col-md-6 col-lg-6 col-12 p-0">
             <div className="form">
-              <form onSubmit={handleSubmit} method="POST">
+              <form onSubmit={handleSubmit} method="POST" ref={form}>
                 <div className="row">
                   <div className="col-md-6 col-lg-6 col-12 tell-div ">
                     <label className="label-form">First Name</label>
@@ -141,7 +154,7 @@ const Map = () => {
                     ></textarea>
                   </div>
                 </div>
-                <button className="buttn1 btnsubmit">
+                <button className="buttn1 btnsubmit" onClick={()=>gaEventTracker('form submit button ')}>
                   Submit <span className="arrow">➝</span>
                 </button>
               </form>

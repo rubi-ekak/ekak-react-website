@@ -110,7 +110,7 @@
        
     }
     .image-logo{
-        /* height: 40%; */
+        height:5rem;
     }
 
     .colorChange{
@@ -118,9 +118,9 @@
         width: 100%;
         top: 0;
         left: 0; 
-       z-index: 1;
+       
        /* height:3rem; */
-       background-color: #0D6667;
+     
         /* background-color: #7D77BC; */
         box-shadow: 0 0.5rem 1rem 0 rgba(21,21,30,0.08);
         transition:0.8;

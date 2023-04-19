@@ -4,10 +4,14 @@ import SearchIcon from "@mui/icons-material/Search";
 import { NavLink } from "react-router-dom";
 import Home from "./Home";
 import { Link, animateScroll as scroll } from "react-scroll";
+import useAnalytics from "../UseAnalytics";
+
 // import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [colorChange, setColorchange] = useState(false);
+  const gaEventTracker =useAnalytics('Navbar');
+
   const changeNavbarColor = () => {
     if (window.scrollY >= 80) {
       setColorchange(true);
@@ -17,10 +21,11 @@ const Navbar = () => {
   };
   window.addEventListener("scroll", changeNavbarColor);
 
+
+
   return (
     <header
       className={colorChange ? "header-section colorChange" : "header-section "}
-     
     >
       <div className="row navbar-color ">
         {/* <div className="col-lg-2 col-sm-1 logo">
@@ -36,7 +41,7 @@ const Navbar = () => {
                 ></img>
               </div>
 
-              <div className="container-fluid">
+              <div className="container-fluid d-flex justify-content-end">
                 <button
                   className="navbar-toggler"
                   type="button"
@@ -57,43 +62,50 @@ const Navbar = () => {
                       Home
                     </NavLink> */}
                     <Link
-    activeClass="active"
-    to="home"
-    // spy={true}
-    smooth={false}
-    offset={10}
-    // duration={500}
-    className="nav-link nav-item"
->Home</Link>
-
-
+                      activeClass="active"
+                      to="home"
+                      // spy={true}
+                      smooth={false}
+                      offset={10}
+                      // duration={500}
+                      className="nav-link nav-item"
+                      onClick={()=>gaEventTracker('home')}
+                    >
+                      Home
+                    </Link>
 
                     <Link
-    activeClass="active"
-    to="sector"
-    // spy={true}
-    smooth={false}
-    offset={350}
-    // duration={500}
-    className="nav-link nav-item"
-> Approach</Link>
+                      activeClass="active"
+                      to="sector"
+                      // spy={true}
+                      smooth={false}
+                      offset={350}
+                      // duration={500}
+                      className="nav-link nav-item"
+                      onClick={()=>gaEventTracker('Approach')}
+                    >
+                      
+                      Approach
+                    </Link>
                     {/* <HashLink smooth to='/#sector' className="nav-link nav-item" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}
 >  Approach </HashLink> */}
                     {/* <a href="#sector" className="nav-link nav-item">
                       Approach
                     </a> */}
 
-
-
-<Link
-    // activeClass="active"
-    to="team"
-    // spy={true}
-    smooth={false}
-    offset={-150}
-    // duration={500}
-    className="nav-link nav-item"
->  Ekak Values</Link>
+                    <Link
+                      // activeClass="active"
+                      to="team"
+                      // spy={true}
+                      smooth={false}
+                      offset={-150}
+                      // duration={500}
+                      className="nav-link nav-item"
+                      onClick={()=>gaEventTracker(' Ekak Values')}
+                    >
+                    
+                      Ekak Values
+                    </Link>
                     {/* <a href="#team" className="nav-link nav-item">
                       Ekak Values
                     </a> */}
@@ -102,16 +114,18 @@ const Navbar = () => {
                       Contact
                     </a> */}
                     <Link
-    // activeClass="active"
-    to="contact"
-    // spy={true}
-    smooth={false}
-    offset={-150}
-    // duration={500}
-    className="nav-link nav-item"
->   Contact</Link>
-
-
+                      // activeClass="active"
+                      to="contact"
+                      // spy={true}
+                      smooth={false}
+                      offset={-150}
+                      // duration={500}
+                      className="nav-link nav-item"
+                      onClick={()=>gaEventTracker('Contact')}
+                    >
+                    
+                      Contact
+                    </Link>
                   </div>
                 </div>
               </div>

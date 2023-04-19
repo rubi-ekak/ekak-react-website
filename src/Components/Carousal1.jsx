@@ -1,8 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Carousal1.css";
+import useAnalytics from "../UseAnalytics";
 
 const Carousal1 = () => {
+  const gaEventTracker=useAnalytics('carousal')
   return (
     <div  id="home">
       <div
@@ -36,7 +38,7 @@ const Carousal1 = () => {
           <div class="carousel-item active">
             <img
               src="/Ekak_WebsitePictures/ARGUS_jezael-melgoza-HYQvV8wWX18-unsplash1.jpg"
-              className="d-block w-100 h-20 image-shadow"
+              className="d-block w-100  image-shadow"
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block text-allignment p-4">
@@ -53,14 +55,14 @@ const Carousal1 = () => {
                 with our comprehensive safety solution.
               </p>
               <button className="bttn button-carousel">
-                <a href="https://www.google.com">Show more</a>
+                <a href="https://www.google.com" onClick={()=>gaEventTracker('Argus show more data')}>Show more</a>
               </button>
             </div>
           </div>
           <div class="carousel-item">
             <img
               src="/Ekak_WebsitePictures/DAVE_erik-mclean-BRFRCLCsg0k-unsplash3.jpg"
-              class="d-block w-100 h-20 image-shadow"
+              class="d-block w-100  image-shadow"
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block text-allignment p-4">
@@ -78,14 +80,14 @@ const Carousal1 = () => {
                 us to help you maintain a safe and responsible fleet of drivers.
               </p>
               <button className="bttn button-carousel">
-                <a href="https://www.facebook.com">Show more</a>
+                <a href="https://www.facebook.com" onClick={()=>gaEventTracker('DAVE show more data')}>Show more</a>
               </button>
             </div>
           </div>
           <div class="carousel-item">
             <img
               src="/Ekak_WebsitePictures/Ekakshar_gavin-allanwood-Q1NS-nISNIw-unsplash1.jpg"
-              className="d-block w-100 h-20 image-shadow"
+              className="d-block w-100 image-shadow"
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block text-allignment p-4">
@@ -103,7 +105,7 @@ const Carousal1 = () => {
                 Contact us today to get started!
               </p>
               <button className="bttn button-carousel">
-                <a href="https://www.instagram.com/">Show more</a>
+                <a href="https://www.instagram.com/" onClick={()=>gaEventTracker('3D Printing show more data')}>Show more</a>
               </button>
             </div>
           </div>

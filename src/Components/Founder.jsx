@@ -28,8 +28,8 @@ const Founder = () => {
           <img
             src="/Ekak_WebsitePictures/IMG_2413.jpg"
             alt="imges"
-            className="img-fluid card2images"
-            style={{height:"25rem", width:"21rem"}}
+            className="img-fluid card2images founderpic"
+            // style={{height:"25rem", width:"21rem"}}
           ></img>
         </div>
       </div>
