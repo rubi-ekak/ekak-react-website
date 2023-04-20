@@ -16,11 +16,6 @@ const Map = () => {
   });
 
 
-
-
-
-
-
   const handlechange = (e) => {
     setFormstate({ ...formState, [e.target.name]: e.target.value });
   };
@@ -28,7 +23,7 @@ const Map = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    emailjs.sendForm('service_ui9c86u', 'template_zltqkdy', form.current, 'fwkH5vVAz4S7nSxEE')
+    emailjs.sendForm('service_l5idhq9', 'template_8ju6rno', form.current, 'HgQ2Ctj2J3puZ2dEE')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -36,25 +31,13 @@ const Map = () => {
       });
 
   
-    // const response = await fetch('http://localhost:3001/api/data', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify(formState),
-    // });
-    // const data = await response.json();
-    // console.log(data);
+    
   };
 
 
 
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-  //   console.log(formState.email);
-  //   console.log(formState);
-  // };
+  
 
   return (
     <section>
