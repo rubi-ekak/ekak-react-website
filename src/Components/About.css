@@ -1,0 +1,126 @@
+.aboutsection{
+  padding:4rem 6rem;  
+
+}
+.about-para{
+    text-align:justify;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size:1.3rem;
+  font-family: "Calluna-Regular"!important;
+    color: #073433;     
+
+
+}
+.about{
+  background-color: #AEDBED;
+}
+.button-about{
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+ 
+}
+.bttn{
+    height:3rem;
+    width:12.4rem;
+  
+   
+    background-color:  #534F7E;
+    color:#ffff;
+
+}
+.bttn:hover{
+
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+    transition: all 1s ease-in;
+    -webkit-transition:all 1s ease-in ;
+}
+.about-padding{
+  padding: 3rem;
+}
+.about-head{
+  color: #232323;
+  font-family: "Gilroy-Bold";
+  font-weight: 600;
+ 
+}
+.about{
+  /* background-color: #F5F2ED; */
+}
+@media (min-width:320px) and (max-width:480px){
+  .aboutsection{
+    padding:1rem 1rem;  
+  
+  }
+  .button-about{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+  .bttn{
+    height:2rem;
+    width:7rem;
+  
+   
+    background-color: #0D6667;
+    color:#ffff;
+
+}
+
+.about-para{
+  text-align:justify;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size:0.8rem;
+font-family: "Calluna-Regular"!important;
+  color: #073433;     
+
+
+}
+.about-padding{
+  padding: 1.5rem;
+}
+
+}
+
+/* for tablet view */
+@media (min-width:481px) and (max-width:768px){
+  .aboutsection{
+    padding:1rem 1rem;  
+  
+  }
+
+  .about-para{
+    text-align:justify;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size:1rem;
+  font-family: "Calluna-Regular"!important;
+    color: #073433;     
+  
+  
+  }
+  .about-padding{
+    padding: 1rem;
+  }
+}
+
+@media (min-width:769px) and (max-width:1090px){
+  .aboutsection{
+    padding:2rem 3rem;  
+  
+  }
+  .about-para{
+    text-align:justify;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size:1.2rem;
+  font-family: "Calluna-Regular"!important;
+    color: #073433;     
+
+
+}
+}

@@ -1,0 +1,173 @@
+.main-container .short-img{
+  background: url(/public/Ekak_WebsitePictures/EKAK_lycs-architecture-U2BI3GMnSSE-unsplash1.jpg);
+  min-height: 250px;
+  background-position: center;
+  /* background-position: 50%; */
+  width: 40%;
+  background-size: cover;
+ background-repeat: no-repeat;  
+ clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+
+ -webkit-clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+
+}
+.main-container .newshort-container{
+  display: flex;
+  align-items: center;
+  background:  #534F7E;
+  height: 250px;
+}
+.main-container .newshort-container .short-img .short-img-bg{
+  height:100% ;
+  min-height: 250px;
+  background:  #7D77BC;
+  clip-path: polygon(95% 0,100% 0,75% 100%, 70% 100%);
+  -webkit-clip-path:polygon(95% 0,100% 0,75% 100%, 70% 100%);
+}
+.short-content .short-information {
+  color: #ffff;
+  width:85%;
+}
+.short-content{
+  width: 60%;
+  padding: 1.5rem;
+  
+ 
+}
+.show-information{
+  background: transparent;
+  color: #ffff;
+  
+}
+.arr-short{
+  margin-left: 1rem;
+}
+.short-head{
+  margin-left: 1rem;
+  font-family:'Gilroy-Bold';
+  font-weight: 600;
+}
+.short-information .short-content-para{
+  font-family: "Calluna-Regular"!important;
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-left: 1.5rem;
+  
+}
+@media (min-width:320px) and (max-width:480px){
+  .main-container .short-img{
+    min-height:150px;
+    background-position: 50%;
+    width:35%;
+    background-size: cover;
+   background-repeat: no-repeat;  
+   clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+  
+   -webkit-clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+  
+  }
+  .main-container .newshort-container{
+    display: flex;
+    align-items: center;
+    /* background: #0D6667; */
+    height: 150px;
+  }
+  .main-container .newshort-container .short-img .short-img-bg{
+    height:100% ;
+    min-height:150px;
+   
+    clip-path: polygon(95% 0,100% 0,75% 100%, 70% 100%);
+    -webkit-clip-path:polygon(95% 0,100% 0,75% 100%, 70% 100%);
+  }
+  .short-content .short-information {
+    color: #ffff;
+    width:95%;
+  }
+  .short-information .short-content-para{
+    font-family: "Calluna-Regular"!important;
+    font-size: 0.5rem;
+    text-align: justify;
+    
+  }
+  .short-content{
+    width: 80%;
+    /* padding: 1rem; */
+    padding-right: 0.5rem;
+    padding-left:0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    height: 11rem;
+   
+  }
+.line{
+  width: 40%;
+}
+  .short-head{
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-family:'Gilroy-Bold';
+    font-weight: 600;
+  }
+}
+
+@media (min-width:481px) and (max-width:768px){
+  .main-container .short-img{
+    min-height:140px;
+    background-position: 50%;
+    width:35%;
+    background-size: cover;
+   background-repeat: no-repeat;  
+   clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+  
+   -webkit-clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+  
+  }
+  .main-container .newshort-container{
+    display: flex;
+    align-items: center;
+    /* background: #0D6667; */
+    height: 140px;
+  }
+  .main-container .newshort-container .short-img .short-img-bg{
+    height:100% ;
+    min-height:140px;
+   
+    clip-path: polygon(95% 0,100% 0,75% 100%, 70% 100%);
+    -webkit-clip-path:polygon(95% 0,100% 0,75% 100%, 70% 100%);
+  }
+  .short-content .short-information {
+    color: #ffff;
+    width:100%;
+  }
+  .short-information .short-content-para{
+    font-family: "Calluna-Regular"!important;
+    font-size: 0.6rem;
+    text-align: justify;
+    
+  }
+  .short-content{
+    width: 80%;
+    /* padding: 1rem; */
+    padding-right: 0.5rem;
+    padding-left:0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0rem;
+    height: 11rem;
+    margin-top: 1rem;
+   
+  }
+  .short-head{
+    font-size:0.9rem;
+    margin-left: 1rem;
+    font-family:'Gilroy-Bold';
+    font-weight: 600;
+  }
+}
+@media (min-width:769px) and (max-width:1090px){
+  .short-information .short-content-para {
+    font-family: "Calluna-Regular"!important;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+}

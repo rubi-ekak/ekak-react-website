@@ -1,0 +1,137 @@
+.card2-box1{
+    background-color: black;
+    color:white;
+  
+   
+}
+.card2-para{
+  
+    margin-top: 2rem;
+    font-family: "Calluna-Regular"!important;
+}
+.card2-text{
+    margin:6rem;
+}
+/* .card3-box3{
+    position:absolute;
+    left:5rem;
+     top:3.3rem;
+
+   
+    
+   
+} */
+.card3-box3{
+    /* position:absolute;
+    left:5rem;
+     top:3.3rem; */
+     position: absolute;
+     right:0;
+     top:0;
+     left: 0;
+     bottom:0;
+     width: 55%;
+     height: 80%;
+     margin: auto;
+     margin-left: 7rem;
+    
+   
+}
+.card3{
+position: relative;
+background-color:#AEDBED;
+
+}
+.card3-box1{
+    /* margin-top:0;
+    margin-bottom:0; */
+    height:81vh;
+    background-color: #FBE1BC;
+    color: #073433;
+  
+}
+
+
+.card3-header{
+    font-weight: 600;
+}
+.card3-show{
+    flex-direction: row-reverse;
+}
+@media (min-width:320px) and (max-width:480px){
+    .card2-text{
+        margin:0rem;
+    }
+    .card3-box3{
+        /* position:absolute;
+        left:0rem;
+        top:1rem; */
+position: absolute;
+     right:0;
+     top:0;
+     left: 0;
+     bottom:0;
+     width:80%;
+    height: 90%;
+     margin: auto;
+     /* margin-left: 0rem;  */
+        
+       
+    }
+    .card3-box1{
+        height: 80vh;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+.card2-text {
+    margin: 0rem;
+}
+.card3-box3{
+    /* position:absolute;
+    left:0rem;
+    top:1rem; */
+position: static;
+ right:0;
+ top:0;
+ left: 0;
+ bottom:0;
+ width:87%;
+height: 90%;
+ margin: auto;
+ /* margin-left: 0rem;  */
+    padding-bottom: 0.5rem;
+   
+}
+.card3-show{
+    flex-direction: column-reverse;
+}
+.card3-box1 {
+    height: auto;
+}
+.card4-show{
+    flex-direction: column-reverse;
+}
+}
+@media (min-width:769px) and (max-width:1090px){
+    .card3-box1 {
+        height:64vh;
+
+    }
+
+    .card3-box3{
+        /* position:absolute;
+        left:5rem;
+         top:3.3rem; */
+         position: absolute;
+         /* right:0; */
+         top:0;
+         left: 0;
+         bottom:0;
+         width: 50%;
+         height: 80%;
+         margin: auto;
+         margin-left: 2rem;
+        
+       
+    }
+}

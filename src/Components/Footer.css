@@ -1,0 +1,69 @@
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+   
+}
+.footer-links ul{
+    list-style: none;
+}
+.footer-links ul a{
+    text-decoration: none;
+    color: black;
+
+}
+.textlink{
+    font-family:"Gilroy-regular",sans-serif;
+    font-size:25px;
+}
+.textbtn{
+    font-family:"Gilroy-regular",sans-serif;
+    font-size:25px;
+    font-weight: 700;
+    background-color: rgb(230, 227, 227);
+}
+.ftrbtn{
+    background-color: transparent;
+}
+.footer-content{
+    background-color: #534F7E;
+    color: #ffff;
+}
+.home{
+    color: #ffff;
+}
+.logosmall{
+    height: auto;
+    width: 12rem;
+}
+.paracopyright{
+    font-size:15px;
+    padding-top:1rem;
+}
+.paracopyright1{
+    font-size:1rem;
+  
+}
+.horizontal-line{
+    width:30rem;
+}
+.copright-text{
+    font-size: 1rem;
+}
+@media (min-width:320px) and (max-width:480px){
+    .copright-text{
+        font-size: 0.8rem;
+        margin-bottom:0rem;
+    }
+.footer-contacts{
+    justify-content:center;
+}
+.logosmall{
+    height: auto;
+    width: 6rem;
+}
+.paracopyright {
+    font-size: 15px;
+    padding-top: 0.1rem
+}
+}

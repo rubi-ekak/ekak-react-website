@@ -1,0 +1,198 @@
+.card2-box1 {
+  background-color: #FBE1BC;
+  color: #073433;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  height:81vh;
+  
+}
+.card2-para {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-family: "Calluna-Regular"!important;
+  text-align: justify;
+}
+.card2-text {
+  border-left: 2px solid rgb(65, 64, 64);
+  padding: 2rem;
+}
+/* .card2-box2 {
+  position: absolute;
+  right: 5rem;
+  top:3.3rem;
+ 
+} */
+
+.card2-box2 {
+  position: absolute;
+  right:0;
+  top:0;
+  /* left: 0; */
+  bottom:0;
+  width: 55%;
+  height: 80%;
+  margin: auto;
+ 
+}
+.card2 {
+  position: relative;
+  background-color:#AEDBED;
+}
+
+/* .card2images {
+  width: 53rem;
+} */
+.card2-header{
+   font-weight: 600;
+}
+
+.card2-display{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+@media (min-width:320px) and (max-width:480px){
+  .card2-box1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height:78vh;
+    
+  }
+  .card2-box2 {
+    right:0;
+    top:0;
+    left: 0;
+    bottom:0;
+    width:80%;
+    height: 90%;
+    margin:auto;
+    /* right:0rem;
+    top: 1rem; */
+  }
+  .card2-para{
+    margin-top: 1rem;
+    text-align:justify!important;
+  
+    font-size: 0.8rem;
+    font-family: "Calluna-Regular"!important;
+  }
+  .card2-text {
+  
+    margin-top:15rem;
+    border-left: none;
+    /* border-top: 2px solid rgb(65, 64, 64); */
+    padding-left: 2rem;
+    padding-right:2rem ;
+    padding-top: 0;
+
+  }
+  .card-float
+  {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width:481px) and (max-width:768px)
+{
+
+  .card2show{
+    flex-direction: column-reverse;
+  }
+  .card2-box2 {
+    right:0;
+    top:0;
+    left: 0;
+    bottom:0;
+    width:87%;
+    height: 90%;
+    margin:auto;
+    position: static;
+    padding-top: 0.5rem;
+ 
+  }
+  .card2-para{
+    margin-top: 1rem;
+    text-align:justify!important;
+  
+    font-size: 0.9rem;
+    font-family: "Calluna-Regular"!important;
+  }
+
+   .card2-box1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height:auto;
+    
+  }
+  
+  
+  /* .card2-box1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height:90vh;
+    
+  }
+  .card2-box2 {
+    right:0;
+    top:0;
+    left: 0;
+    bottom:0;
+    width:87%;
+    height: 90%;
+    margin:auto;
+ 
+  }
+  .card2-para{
+    
+    text-align:justify!important;
+  
+    font-size: 0.9rem;
+    font-family: "Calluna-Regular"!important;
+  }
+  .card-float
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .card2-text {
+  
+    margin-top:20rem;
+    border-left: none;
+  
+    padding-left: 2rem;
+    padding-right:2rem ;
+    padding-top: 0;
+
+  } */
+}
+
+@media (min-width:769px) and (max-width:1090px){
+  .card2-text {
+    border-left: none;
+    padding: 1rem;
+
+}
+.card2-text {
+  margin: 2rem;
+}
+.card2-box2 {
+  position: absolute;
+  right:2rem;
+  top:0;
+  /* left: 0; */
+  bottom:0;
+  width: 50%;
+  height:76%;
+  margin: auto;
+ 
+}
+.card2-box1 {
+  background-color: #FBE1BC;
+  color: #073433;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  height:64vh;
+  
+}
+}
