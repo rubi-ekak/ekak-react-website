@@ -1,0 +1,14 @@
+.box-padding{
+    padding-top: 4rem;
+    /* padding-bottom: 4rem; */
+    
+}
+.btn{
+    --bs-btn-padding-x:1.5rem
+}
+.formula-text{
+    width:30rem;
+}
+.content-heading{
+    font-family: "Gilroy-bold";
+}

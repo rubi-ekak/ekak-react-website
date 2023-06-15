@@ -1,0 +1,16 @@
+.clip-image{
+    background-image: url("../../public/photo.avif");
+    clip-path: ellipse(25% 40% at 50% 50%);
+    width: 36rem;
+    height:12rem;
+    background-position: center;
+    transform: rotate(-10deg);
+}
+.oval {
+    width: 23rem;
+    height:13rem;
+  background-image: url("../../public/photo.avif");
+  background-position: center;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+  }

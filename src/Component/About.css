@@ -1,0 +1,8 @@
+.about-image{
+     filter: hue-rotate(200deg);
+     filter:brightness(-80)
+}
+.para-family{
+     font-family:"Calluna-Regular" ;
+     font-size: 18px;
+ }

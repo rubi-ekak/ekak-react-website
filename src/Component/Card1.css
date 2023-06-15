@@ -1,0 +1,56 @@
+.main-container .short-img{
+    background: url(/public/EkaksharImages/2.jpg);
+    min-height: 250px;
+    background-position: center;
+    /* background-position: 50%; */
+    width: 40%;
+    background-size: cover;
+   background-repeat: no-repeat;  
+   clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+  
+   -webkit-clip-path: polygon(0 0,100% 0,75% 100%,0 100%);
+  
+  }
+  .main-container .newshort-container{
+    display: flex;
+    align-items: center;
+    background:  #0697C9;
+    height: 250px;
+  }
+  .main-container .newshort-container .short-img .short-img-bg{
+    height:100% ;
+    min-height: 250px;
+    background:  #AEDBED;
+    clip-path: polygon(95% 0,100% 0,75% 100%, 70% 100%);
+    -webkit-clip-path:polygon(95% 0,100% 0,75% 100%, 70% 100%);
+  }
+  .short-content .short-information {
+    color: #ffff;
+    width:85%;
+  }
+  .short-content{
+    width: 60%;
+    padding: 1.5rem;
+    
+   
+  }
+  .show-information{
+    background: transparent;
+    color: #ffff;
+    
+  }
+  .arr-short{
+    margin-left: 1rem;
+  }
+  .short-head{
+    margin-left: 1rem;
+    font-family:'Gilroy-Bold';
+    font-weight: 600;
+  }
+  .short-information .short-content-para{
+    font-family: "Calluna-Regular"!important;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 1.5rem;
+    
+  }

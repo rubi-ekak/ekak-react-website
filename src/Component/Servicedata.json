@@ -1,0 +1,21 @@
+[
+{
+  "index":"001",
+  "title" :"ui",
+"content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore a Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore",
+  "img":"photo.avif"
+},
+{
+    "index":"002",
+    "title" :"lean manufacturing",
+  "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore",
+    "img":"photo.avif"
+  },
+  {
+    "index":"003",
+    "title" :"text engineering",
+  "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore",
+    "img":"photo.avif"
+  }
+
+]

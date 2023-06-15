@@ -1,0 +1,22 @@
+[
+  {
+    "index": "001",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore a Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore",
+    "img": "photo.avif"
+  },
+  {
+    "index": "002",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore a Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore",
+    "img": "photo.avif"
+  },
+  {
+    "index": "003",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore a Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore",
+    "img": "photo.avif"
+  },
+  {
+    "index": "004",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore a Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore",
+    "img": "photo.avif"
+  }
+]
